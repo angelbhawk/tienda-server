@@ -60,6 +60,6 @@ Route::controller(CarritoController::class)->group(function () {
 
 Route::post('/carrito/agregar',[CarritoController::class,'agregarPost']);
 
-Route::get('/producto/modificarImage',[ProductosController::class,'modificarImagen'])->withoutMiddleware(VerifyCsrfToken::class);
-Route::post('/producto/modificarImage',[ProductosController::class,'modificarImagen'])
+Route::get('/producto/modificarImagen',[ProductosController::class,'modificarImagen'])->withoutMiddleware(VerifyCsrfToken::class);
+Route::post('/producto/modificarImagen',[ProductosController::class,'modificarImagen'])
 ->withoutMiddleware(VerifyCsrfToken::class);

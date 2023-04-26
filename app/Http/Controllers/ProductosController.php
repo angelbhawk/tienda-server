@@ -41,7 +41,7 @@ class ProductosController extends Controller
         route('catalogo_productos');
     }
 
-    public function modificarImagen(ProductoModificarImagenRequest $request)
+    public function modificarImagen(Request $request)
     {
         $token = $request['token'];
         $imagen = $request->file('imagen');
