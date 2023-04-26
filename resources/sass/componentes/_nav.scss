@@ -1,0 +1,13 @@
+nav{
+    @extend .w3-bar;
+    @extend .w3-black;
+    >ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li{
+            @extend .w3-bar-item;
+            @extend .w3-button;
+        }
+    }
+}

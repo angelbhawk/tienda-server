@@ -1,0 +1,27 @@
+main{
+    table{
+        //display: block;
+        //box-sizing: border-box;
+        @extend .w3-table-all;
+        thead{
+            tr{
+                @extend .w3-blue;
+                :nth-child(3), :nth-child(4), :nth-child(5){
+                    @extend .w3-right-align;
+                }
+            }
+        }
+        tbody{
+            tr{
+                :nth-child(3), :nth-child(4), :nth-child(5){
+                    @extend .w3-right-align;
+                }
+                td{
+                    max-width: 200px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

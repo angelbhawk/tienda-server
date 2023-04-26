@@ -1,0 +1,21 @@
+#altaProductos, #login{
+    h2{
+        @extend .w3-container;
+        @extend .color-principal-fondo;
+    }
+    form{
+        @extend .w3-container;
+    }
+    label{
+        @extend .color-principal;
+    }
+    textarea, input[type='text'], input[type='number']{
+        @extend .w3-input;
+        @extend .w3-border;
+        @extend .w3-light-grey;
+    }
+    input[type='submit']{
+        @extend .w3-btn;
+        @extend .w3-blue-grey;
+    }
+}

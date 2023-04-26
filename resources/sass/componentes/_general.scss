@@ -1,0 +1,25 @@
+body{
+    >header{
+        @extend .w3-panel;
+        @extend .w3-rest;
+    }
+    >main{
+        @extend .w3-panel;
+        @extend .w3-rest;
+    }
+    >aside{
+        @extend .w3-panel;
+        @extend .w3-quarter;
+    }
+    >footer{
+        @extend .w3-panel;
+    }
+}
+.producto{
+    @extend .w3-card-4;
+    @extend .w3-quarter;
+    @extend .w3-center;
+}
+.filtros{
+
+}

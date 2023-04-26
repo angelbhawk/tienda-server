@@ -1,0 +1,30 @@
+.boton{
+    @extend .w3-button;
+    @extend .w3-round-xlarge;
+    @extend .w3-ripple;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    min-width: 100px;
+}
+.btnModificar{
+    @extend .boton;
+    @extend .w3-yellow;
+}
+.btnAceptar{
+    @extend .boton;
+    @extend .w3-green;
+}
+.btnCancelar{
+    @extend .boton;
+    @extend .w3-orange;
+}
+.btnEliminar{
+    @extend .boton;
+    @extend .w3-red;
+}
+.btnAgregar{
+    @extend .boton;
+    @extend .w3-green;
+}
